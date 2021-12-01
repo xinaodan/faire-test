@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "eslint-plugin-cypress": "^2.12.1"
+  },
+  "scripts": {
+    "test": "cypress run"
   }
 }
