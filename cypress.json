@@ -1,4 +1,6 @@
 {
   "baseUrl": "https://www.faire.com/",
-  "integrationFolder": "cypress/tests"
+  "integrationFolder": "cypress/tests",
+  "viewportWidth": 1440,
+  "viewportHeight": 900
 }

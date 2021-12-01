@@ -1,6 +1,6 @@
 import { selectors } from '../modals/selectors'
 
-describe('Search when user is logged out', () => {
+describe('Search with logged out user', () => {
   describe('Search dropdown', () => {
     // Ideally, before is preferred here
     // However, beforeEach is used so the alias refinedSearchTerms can be reused in each test
