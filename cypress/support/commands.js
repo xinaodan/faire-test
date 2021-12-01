@@ -1,3 +1,4 @@
+import { selectors } from '../modals/selectors'
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -11,7 +12,13 @@
 //
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
-//
+Cypress.Commands.add('search', (searchTerm) => {
+    cy.get(selectors.common.searchBar).type(searchTerm).type('{enter}');
+})
+
+Cypress.Commands.add('search', (searchTerm) => {
+    cy.get(selectors.common.searchBar).type(searchTerm).type('{enter}');
+})
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })

@@ -1,1 +1,4 @@
-{}
+{
+  "baseUrl": "https://www.faire.com/",
+  "integrationFolder": "cypress/tests"
+}
